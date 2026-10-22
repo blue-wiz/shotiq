@@ -1,0 +1,93 @@
+{
+  "n_shots_total": 38728,
+  "n_shots_model": 38318,
+  "n_matches": 1551,
+  "test_league": "La Liga 2015/16",
+  "n_test_shots": 9071,
+  "conversion_rate": 0.09528159089722846,
+  "results": [
+    {
+      "model": "Constant (league average)",
+      "log_loss": 0.3349,
+      "brier": 0.0935,
+      "roc_auc": 0.5,
+      "pred_goals": 839.2699,
+      "actual_goals": 945
+    },
+    {
+      "model": "Baseline: distance + angle (logistic)",
+      "log_loss": 0.2907,
+      "brier": 0.0838,
+      "roc_auc": 0.762,
+      "pred_goals": 880.8958,
+      "actual_goals": 945
+    },
+    {
+      "model": "Full features (logistic)",
+      "log_loss": 0.2638,
+      "brier": 0.0766,
+      "roc_auc": 0.8199,
+      "pred_goals": 936.7621,
+      "actual_goals": 945
+    },
+    {
+      "model": "Full features (gradient boosting)",
+      "log_loss": 0.262,
+      "brier": 0.076,
+      "roc_auc": 0.8242,
+      "pred_goals": 929.2577,
+      "actual_goals": 945
+    },
+    {
+      "model": "StatsBomb's own xG (benchmark)",
+      "log_loss": 0.2555,
+      "brier": 0.0736,
+      "roc_auc": 0.8328,
+      "pred_goals": 903.7753,
+      "actual_goals": 945
+    }
+  ],
+  "top_finishers": [
+    {
+      "player": "Luis Alberto Su\u00e1rez D\u00edaz",
+      "shots": 134,
+      "goals": 37,
+      "xg": 24.6,
+      "g_minus_xg": 12.4,
+      "z": 3.11
+    },
+    {
+      "player": "Zlatan Ibrahimovi\u0107",
+      "shots": 142,
+      "goals": 31,
+      "xg": 20.71,
+      "g_minus_xg": 10.29,
+      "z": 2.65
+    },
+    {
+      "player": "Gareth Frank Bale",
+      "shots": 81,
+      "goals": 19,
+      "xg": 9.95,
+      "g_minus_xg": 9.05,
+      "z": 3.33
+    },
+    {
+      "player": "Gonzalo Gerardo Higua\u00edn",
+      "shots": 179,
+      "goals": 33,
+      "xg": 24.1,
+      "g_minus_xg": 8.9,
+      "z": 2.12
+    },
+    {
+      "player": "Antoine Griezmann",
+      "shots": 90,
+      "goals": 21,
+      "xg": 14.03,
+      "g_minus_xg": 6.97,
+      "z": 2.27
+    }
+  ],
+  "feature_effect_header_vs_foot": null
+}

@@ -1,0 +1,6 @@
+model,log_loss,brier,roc_auc,pred_goals,actual_goals
+Constant (league average),0.3349,0.0935,0.5,839.2699,945
+Baseline: distance + angle (logistic),0.2907,0.0838,0.762,880.8958,945
+Full features (logistic),0.2638,0.0766,0.8199,936.7621,945
+Full features (gradient boosting),0.262,0.076,0.8242,929.2577,945
+StatsBomb's own xG (benchmark),0.2555,0.0736,0.8328,903.7753,945
