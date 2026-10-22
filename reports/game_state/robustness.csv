@@ -1,0 +1,5 @@
+contrast,outcome,method,estimate,se,ci_low,ci_high,p
+trailing vs level,StatsBomb's xG instead of ShotIQ's,Double machine learning,0.0008,0.00156,-0.00227,0.00386,0.61106
+trailing vs level,Actual goals (1/0) instead of xG,Double machine learning,0.00776,0.00375,0.00041,0.01511,0.0385
+leading vs level,StatsBomb's xG instead of ShotIQ's,Double machine learning,0.01703,0.00198,0.01315,0.0209,0.0
+leading vs level,Actual goals (1/0) instead of xG,Double machine learning,0.01539,0.00433,0.00691,0.02388,0.00038

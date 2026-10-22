@@ -1,0 +1,482 @@
+{
+  "n_shots": 38318,
+  "n_matches": 1551,
+  "state_share": {
+    "level": 0.4785,
+    "trailing": 0.2801,
+    "leading": 0.2414
+  },
+  "mean_xg_by_state": {
+    "leading": 0.1128,
+    "level": 0.0903,
+    "trailing": 0.0888
+  },
+  "main": [
+    {
+      "contrast": "trailing vs level",
+      "method": "Raw difference",
+      "estimate": -0.0015,
+      "se": 0.00144,
+      "ci_low": -0.00432,
+      "ci_high": 0.00131,
+      "p": 0.29478,
+      "level_mean_xg": 0.0903,
+      "pct_of_level": -1.66511
+    },
+    {
+      "contrast": "trailing vs level",
+      "method": "Regression with controls",
+      "estimate": 0.00117,
+      "se": 0.00155,
+      "ci_low": -0.00188,
+      "ci_high": 0.00421,
+      "p": 0.45216,
+      "level_mean_xg": 0.0903,
+      "pct_of_level": 1.29352
+    },
+    {
+      "contrast": "trailing vs level",
+      "method": "Double machine learning",
+      "estimate": 0.00271,
+      "se": 0.0016,
+      "ci_low": -0.00043,
+      "ci_high": 0.00585,
+      "p": 0.09097,
+      "level_mean_xg": 0.0903,
+      "pct_of_level": 2.99923
+    },
+    {
+      "contrast": "leading vs level",
+      "method": "Raw difference",
+      "estimate": 0.02248,
+      "se": 0.0018,
+      "ci_low": 0.01894,
+      "ci_high": 0.02601,
+      "p": 0.0,
+      "level_mean_xg": 0.0903,
+      "pct_of_level": 24.88975
+    },
+    {
+      "contrast": "leading vs level",
+      "method": "Regression with controls",
+      "estimate": 0.01908,
+      "se": 0.00185,
+      "ci_low": 0.01546,
+      "ci_high": 0.02271,
+      "p": 0.0,
+      "level_mean_xg": 0.0903,
+      "pct_of_level": 21.13046
+    },
+    {
+      "contrast": "leading vs level",
+      "method": "Double machine learning",
+      "estimate": 0.01626,
+      "se": 0.00188,
+      "ci_low": 0.01258,
+      "ci_high": 0.01995,
+      "p": 0.0,
+      "level_mean_xg": 0.0903,
+      "pct_of_level": 18.01135
+    }
+  ],
+  "sensitivity": [
+    {
+      "contrast": "trailing vs level",
+      "cf_y": 0.01,
+      "cf_d": 0.01,
+      "theta_lower": 2e-05,
+      "theta_upper": 0.0054,
+      "ci_lower": -0.00262,
+      "ci_upper": 0.00803,
+      "robustness_value": 0.01007,
+      "robustness_value_ci": 0.00027
+    },
+    {
+      "contrast": "trailing vs level",
+      "cf_y": 0.03,
+      "cf_d": 0.03,
+      "theta_lower": -0.00544,
+      "theta_upper": 0.01086,
+      "ci_lower": -0.0081,
+      "ci_upper": 0.01349,
+      "robustness_value": 0.01007,
+      "robustness_value_ci": 0.00027
+    },
+    {
+      "contrast": "trailing vs level",
+      "cf_y": 0.05,
+      "cf_d": 0.05,
+      "theta_lower": -0.01102,
+      "theta_upper": 0.01644,
+      "ci_lower": -0.01369,
+      "ci_upper": 0.01907,
+      "robustness_value": 0.01007,
+      "robustness_value_ci": 0.00027
+    },
+    {
+      "contrast": "leading vs level",
+      "cf_y": 0.01,
+      "cf_d": 0.01,
+      "theta_lower": 0.01341,
+      "theta_upper": 0.01912,
+      "ci_lower": 0.0103,
+      "ci_upper": 0.02221,
+      "robustness_value": 0.05558,
+      "robustness_value_ci": 0.0451
+    },
+    {
+      "contrast": "leading vs level",
+      "cf_y": 0.03,
+      "cf_d": 0.03,
+      "theta_lower": 0.0076,
+      "theta_upper": 0.02493,
+      "ci_lower": 0.00448,
+      "ci_upper": 0.028,
+      "robustness_value": 0.05558,
+      "robustness_value_ci": 0.0451
+    },
+    {
+      "contrast": "leading vs level",
+      "cf_y": 0.05,
+      "cf_d": 0.05,
+      "theta_lower": 0.00168,
+      "theta_upper": 0.03085,
+      "ci_lower": -0.00147,
+      "ci_upper": 0.03392,
+      "robustness_value": 0.05558,
+      "robustness_value_ci": 0.0451
+    }
+  ],
+  "benchmark": {
+    "trailing": {
+      "cf_y": 0.0026711455559931038,
+      "cf_d": 0.02533370965896964,
+      "rho": -0.8274693224295813,
+      "delta_theta": -0.0018832994896493308
+    },
+    "leading": {
+      "cf_y": 0.003199064664331655,
+      "cf_d": 0.013984181001538845,
+      "rho": 1.0,
+      "delta_theta": 0.0025765146711189367
+    }
+  },
+  "robustness": [
+    {
+      "contrast": "trailing vs level",
+      "outcome": "StatsBomb's xG instead of ShotIQ's",
+      "method": "Double machine learning",
+      "estimate": 0.0008,
+      "se": 0.00156,
+      "ci_low": -0.00227,
+      "ci_high": 0.00386,
+      "p": 0.61106
+    },
+    {
+      "contrast": "trailing vs level",
+      "outcome": "Actual goals (1/0) instead of xG",
+      "method": "Double machine learning",
+      "estimate": 0.00776,
+      "se": 0.00375,
+      "ci_low": 0.00041,
+      "ci_high": 0.01511,
+      "p": 0.0385
+    },
+    {
+      "contrast": "leading vs level",
+      "outcome": "StatsBomb's xG instead of ShotIQ's",
+      "method": "Double machine learning",
+      "estimate": 0.01703,
+      "se": 0.00198,
+      "ci_low": 0.01315,
+      "ci_high": 0.0209,
+      "p": 0.0
+    },
+    {
+      "contrast": "leading vs level",
+      "outcome": "Actual goals (1/0) instead of xG",
+      "method": "Double machine learning",
+      "estimate": 0.01539,
+      "se": 0.00433,
+      "ci_low": 0.00691,
+      "ci_high": 0.02388,
+      "p": 0.00038
+    }
+  ],
+  "mechanisms": [
+    {
+      "contrast": "trailing vs level",
+      "variable": "distance",
+      "label": "Distance to goal (yards)",
+      "level_mean": 19.81184,
+      "method": "Double machine learning",
+      "estimate": -0.40971,
+      "se": 0.12972,
+      "ci_low": -0.66395,
+      "ci_high": -0.15547,
+      "p": 0.00159
+    },
+    {
+      "contrast": "trailing vs level",
+      "variable": "n_blockers",
+      "label": "Defenders blocking the goal",
+      "level_mean": 0.79188,
+      "method": "Double machine learning",
+      "estimate": 0.03759,
+      "se": 0.01475,
+      "ci_low": 0.00869,
+      "ci_high": 0.0665,
+      "p": 0.01079
+    },
+    {
+      "contrast": "trailing vs level",
+      "variable": "one_on_one",
+      "label": "One-on-one with keeper (share)",
+      "level_mean": 0.04679,
+      "method": "Double machine learning",
+      "estimate": -0.00513,
+      "se": 0.0028,
+      "ci_low": -0.01062,
+      "ci_high": 0.00036,
+      "p": 0.06716
+    },
+    {
+      "contrast": "trailing vs level",
+      "variable": "from_counter",
+      "label": "From a counter-attack (share)",
+      "level_mean": 0.04107,
+      "method": "Double machine learning",
+      "estimate": -0.01367,
+      "se": 0.00264,
+      "ci_low": -0.01884,
+      "ci_high": -0.00849,
+      "p": 0.0
+    },
+    {
+      "contrast": "trailing vs level",
+      "variable": "outside_box",
+      "label": "From outside the box (share)",
+      "level_mean": 0.43336,
+      "method": "Double machine learning",
+      "estimate": -0.00962,
+      "se": 0.00703,
+      "ci_low": -0.0234,
+      "ci_high": 0.00416,
+      "p": 0.17117
+    },
+    {
+      "contrast": "trailing vs level",
+      "variable": "from_set_piece",
+      "label": "Possession began at a set piece or throw-in (share)",
+      "level_mean": 0.56157,
+      "method": "Double machine learning",
+      "estimate": 0.02903,
+      "se": 0.00757,
+      "ci_low": 0.01419,
+      "ci_high": 0.04388,
+      "p": 0.00013
+    },
+    {
+      "contrast": "leading vs level",
+      "variable": "distance",
+      "label": "Distance to goal (yards)",
+      "level_mean": 19.81184,
+      "method": "Double machine learning",
+      "estimate": -0.06851,
+      "se": 0.13188,
+      "ci_low": -0.32699,
+      "ci_high": 0.18997,
+      "p": 0.60342
+    },
+    {
+      "contrast": "leading vs level",
+      "variable": "n_blockers",
+      "label": "Defenders blocking the goal",
+      "level_mean": 0.79188,
+      "method": "Double machine learning",
+      "estimate": -0.16603,
+      "se": 0.01378,
+      "ci_low": -0.19303,
+      "ci_high": -0.13903,
+      "p": 0.0
+    },
+    {
+      "contrast": "leading vs level",
+      "variable": "one_on_one",
+      "label": "One-on-one with keeper (share)",
+      "level_mean": 0.04679,
+      "method": "Double machine learning",
+      "estimate": 0.02079,
+      "se": 0.00343,
+      "ci_low": 0.01406,
+      "ci_high": 0.02752,
+      "p": 0.0
+    },
+    {
+      "contrast": "leading vs level",
+      "variable": "from_counter",
+      "label": "From a counter-attack (share)",
+      "level_mean": 0.04107,
+      "method": "Double machine learning",
+      "estimate": 0.03536,
+      "se": 0.0036,
+      "ci_low": 0.0283,
+      "ci_high": 0.04242,
+      "p": 0.0
+    },
+    {
+      "contrast": "leading vs level",
+      "variable": "outside_box",
+      "label": "From outside the box (share)",
+      "level_mean": 0.43336,
+      "method": "Double machine learning",
+      "estimate": -0.02894,
+      "se": 0.00733,
+      "ci_low": -0.04331,
+      "ci_high": -0.01458,
+      "p": 8e-05
+    },
+    {
+      "contrast": "leading vs level",
+      "variable": "from_set_piece",
+      "label": "Possession began at a set piece or throw-in (share)",
+      "level_mean": 0.56157,
+      "method": "Double machine learning",
+      "estimate": -0.08535,
+      "se": 0.00771,
+      "ci_low": -0.10045,
+      "ci_high": -0.07025,
+      "p": 0.0
+    }
+  ],
+  "by_league": [
+    {
+      "contrast": "trailing vs level",
+      "league": "Premier League",
+      "n_shots": 7429,
+      "method": "Double machine learning",
+      "estimate": 0.00126,
+      "se": 0.00328,
+      "ci_low": -0.00517,
+      "ci_high": 0.00769,
+      "p": 0.70123
+    },
+    {
+      "contrast": "trailing vs level",
+      "league": "La Liga",
+      "n_shots": 6753,
+      "method": "Double machine learning",
+      "estimate": 0.01219,
+      "se": 0.00376,
+      "ci_low": 0.00481,
+      "ci_high": 0.01957,
+      "p": 0.0012
+    },
+    {
+      "contrast": "trailing vs level",
+      "league": "Serie A",
+      "n_shots": 7599,
+      "method": "Double machine learning",
+      "estimate": 0.00665,
+      "se": 0.00323,
+      "ci_low": 0.00032,
+      "ci_high": 0.01298,
+      "p": 0.03936
+    },
+    {
+      "contrast": "trailing vs level",
+      "league": "Ligue 1",
+      "n_shots": 6683,
+      "method": "Double machine learning",
+      "estimate": 0.00759,
+      "se": 0.00357,
+      "ci_low": 0.0006,
+      "ci_high": 0.01459,
+      "p": 0.03328
+    },
+    {
+      "contrast": "leading vs level",
+      "league": "Premier League",
+      "n_shots": 7187,
+      "method": "Double machine learning",
+      "estimate": 0.00551,
+      "se": 0.00348,
+      "ci_low": -0.00131,
+      "ci_high": 0.01233,
+      "p": 0.11347
+    },
+    {
+      "contrast": "leading vs level",
+      "league": "La Liga",
+      "n_shots": 6385,
+      "method": "Double machine learning",
+      "estimate": 0.02231,
+      "se": 0.00448,
+      "ci_low": 0.01353,
+      "ci_high": 0.03108,
+      "p": 0.0
+    },
+    {
+      "contrast": "leading vs level",
+      "league": "Serie A",
+      "n_shots": 7184,
+      "method": "Double machine learning",
+      "estimate": 0.00868,
+      "se": 0.00367,
+      "ci_low": 0.00148,
+      "ci_high": 0.01587,
+      "p": 0.01807
+    },
+    {
+      "contrast": "leading vs level",
+      "league": "Ligue 1",
+      "n_shots": 6268,
+      "method": "Double machine learning",
+      "estimate": 0.00631,
+      "se": 0.00424,
+      "ci_low": -0.00201,
+      "ci_high": 0.01463,
+      "p": 0.13712
+    }
+  ],
+  "rates": [
+    {
+      "state": "leading",
+      "shots": 9250.0,
+      "xg": 1043.1927,
+      "minutes": 75275.8667,
+      "shots_per90": 11.0593,
+      "xg_per90": 1.2472
+    },
+    {
+      "state": "level",
+      "shots": 18330.0,
+      "xg": 1654.4444,
+      "minutes": 140448.0,
+      "shots_per90": 11.746,
+      "xg_per90": 1.0602
+    },
+    {
+      "state": "trailing",
+      "shots": 10732.0,
+      "xg": 952.981,
+      "minutes": 75275.8667,
+      "shots_per90": 12.8312,
+      "xg_per90": 1.1394
+    }
+  ],
+  "rate_ratios": {
+    "trailing": {
+      "rate_ratio": 1.1748660335952195,
+      "ci_low": 1.1411145776817688,
+      "ci_high": 1.209615777321794,
+      "p": 2.322733044822922e-27
+    },
+    "leading": {
+      "rate_ratio": 0.8765661296065278,
+      "ci_low": 0.8509328282622961,
+      "ci_high": 0.902971602520572,
+      "p": 3.314044297938072e-18
+    }
+  }
+}
