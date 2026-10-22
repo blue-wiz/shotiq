@@ -4,3 +4,5 @@ scikit-learn>=1.4
 matplotlib>=3.8
 pyarrow>=14
 pytest>=8
+statsmodels>=0.14
+doubleml>=0.9

@@ -1,0 +1,9 @@
+contrast,league,n_shots,method,estimate,se,ci_low,ci_high,p
+trailing vs level,Premier League,7429,Double machine learning,0.00126,0.00328,-0.00517,0.00769,0.70123
+trailing vs level,La Liga,6753,Double machine learning,0.01219,0.00376,0.00481,0.01957,0.0012
+trailing vs level,Serie A,7599,Double machine learning,0.00665,0.00323,0.00032,0.01298,0.03936
+trailing vs level,Ligue 1,6683,Double machine learning,0.00759,0.00357,0.0006,0.01459,0.03328
+leading vs level,Premier League,7187,Double machine learning,0.00551,0.00348,-0.00131,0.01233,0.11347
+leading vs level,La Liga,6385,Double machine learning,0.02231,0.00448,0.01353,0.03108,0.0
+leading vs level,Serie A,7184,Double machine learning,0.00868,0.00367,0.00148,0.01587,0.01807
+leading vs level,Ligue 1,6268,Double machine learning,0.00631,0.00424,-0.00201,0.01463,0.13712

@@ -1,0 +1,13 @@
+contrast,variable,label,level_mean,method,estimate,se,ci_low,ci_high,p
+trailing vs level,distance,Distance to goal (yards),19.81184,Double machine learning,-0.40971,0.12972,-0.66395,-0.15547,0.00159
+trailing vs level,n_blockers,Defenders blocking the goal,0.79188,Double machine learning,0.03759,0.01475,0.00869,0.0665,0.01079
+trailing vs level,one_on_one,One-on-one with keeper (share),0.04679,Double machine learning,-0.00513,0.0028,-0.01062,0.00036,0.06716
+trailing vs level,from_counter,From a counter-attack (share),0.04107,Double machine learning,-0.01367,0.00264,-0.01884,-0.00849,0.0
+trailing vs level,outside_box,From outside the box (share),0.43336,Double machine learning,-0.00962,0.00703,-0.0234,0.00416,0.17117
+trailing vs level,from_set_piece,Possession began at a set piece or throw-in (share),0.56157,Double machine learning,0.02903,0.00757,0.01419,0.04388,0.00013
+leading vs level,distance,Distance to goal (yards),19.81184,Double machine learning,-0.06851,0.13188,-0.32699,0.18997,0.60342
+leading vs level,n_blockers,Defenders blocking the goal,0.79188,Double machine learning,-0.16603,0.01378,-0.19303,-0.13903,0.0
+leading vs level,one_on_one,One-on-one with keeper (share),0.04679,Double machine learning,0.02079,0.00343,0.01406,0.02752,0.0
+leading vs level,from_counter,From a counter-attack (share),0.04107,Double machine learning,0.03536,0.0036,0.0283,0.04242,0.0
+leading vs level,outside_box,From outside the box (share),0.43336,Double machine learning,-0.02894,0.00733,-0.04331,-0.01458,8e-05
+leading vs level,from_set_piece,Possession began at a set piece or throw-in (share),0.56157,Double machine learning,-0.08535,0.00771,-0.10045,-0.07025,0.0
